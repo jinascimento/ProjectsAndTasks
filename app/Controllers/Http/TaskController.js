@@ -11,7 +11,6 @@ class TaskController {
     return tasks
   }
 
-
   async store ({ request, params }) {
     const data = request.only([
       'user_id',
